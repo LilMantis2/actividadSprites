@@ -1,0 +1,151 @@
+.animation1 {
+    width: 36px;
+    height: 33px;
+    background-image: url(./img/spritPokemon.png);
+    animation: playAnimation 1.5s steps(1) infinite;
+}
+
+@keyframes playAnimation {
+    0% {
+        background-position: -82px -35px;
+    }
+
+    25% {
+        background-position: -118px -35px;
+    }
+
+    50% {
+        background-position: -153px -35px;
+    }
+
+    75% {
+        background-position: -118px -35px;
+    }
+
+    100% {
+        background-position: -82px -35px;
+    }
+}
+
+.animation2 {
+    width: 36px;
+    height: 38px;
+    background-image: url(./img/spritPokemon.png);
+    animation: playUp 1.5s steps(1) infinite;
+}
+
+@keyframes playUp {
+    0% {
+        background-position: -82px -69px;
+    }
+
+    25% {
+        background-position: -119px -69px;
+    }
+
+    50% {
+        background-position: -156px -69px;
+    }
+
+    75% {
+        background-position: -119px -69px;
+    }
+
+    100% {
+        background-position: -82px -69px;
+    }
+
+
+}
+
+.animation3 {
+    width: 36px;
+    height: 38px;
+    background-image: url(./img/spritPokemon.png);
+    animation: playLeft 1.5s steps(1) infinite;
+}
+
+@keyframes playLeft {
+    0% {
+        background-position: -82px -110px;
+    }
+
+    25% {
+        background-position: -122px -110px;
+    }
+
+    50% {
+        background-position: -156px -110px;
+    }
+
+    75% {
+        background-position: -122px -110px;
+    }
+
+    100% {
+        background-position: -82px -110px;
+    }
+}
+
+.animation4 {
+    width: 36px;
+    height: 38px;
+    background-image: url(./img/spritPokemon.png);
+    animation: playRight 1.5s steps(1) infinite;
+}
+
+@keyframes playRight {
+    0% {
+        background-position: -82px -110px;
+        transform: scaleX(-1);
+    }
+
+    25% {
+        background-position: -122px -110px;
+        transform: scaleX(-1);
+    }
+
+    50% {
+        background-position: -156px -110px;
+        transform: scaleX(-1);
+    }
+
+    75% {
+        background-position: -122px -110px;
+        transform: scaleX(-1);
+    }
+
+    100% {
+        background-position: -82px -110px;
+        transform: scaleX(-1);
+    }
+}
+
+.animation5 {
+    width: 36px;
+    height: 38px;
+    background-image: url(./img/spritPokemon.png);
+    animation: playIdle 1.5s steps(1) infinite;
+}
+
+@keyframes playIdle {
+    0% {
+        background-position: -208px -36px;
+    }
+
+    25% {
+        background-position: -153px -34px;
+    }
+
+    50% {
+        background-position: -264px -37px;
+    }
+
+    75% {
+        background-position: -153px -34px;
+    }
+    100%{
+        background-position: -208px -36px;
+    }
+
+}
