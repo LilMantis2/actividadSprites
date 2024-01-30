@@ -109,14 +109,12 @@
         transform: scaleX(-1);
     }
 }
-
 .animation5 {
     width: 36px;
     height: 38px;
     background-image: url(./img/spritPokemon.png);
     animation: playIdle 1s steps(1) infinite;
 }
-
 
 @keyframes playIdle {
     0% {
@@ -125,6 +123,7 @@
 
     25% {
         background-position: -264px -42px;
+        transform: translateY(-5px); /* Mueve hacia arriba 5px */
     }
-
 }
+
